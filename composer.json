@@ -1,0 +1,20 @@
+{
+    "name": "dmelo/baddeeds",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {"BadDeeds\\": "src/BadDeeds"}
+    },
+    "authors": [
+        {
+            "name": "Diogo Oliveira de Melo",
+            "email": "dmelo87@gmail.com"
+        }
+    ]
+}

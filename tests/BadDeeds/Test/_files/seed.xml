@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="baddeed">
+	<table_structure name="deed">
+		<field Field="id" Type="int(11) unsigned" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="subject" Type="varchar(256)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="description" Type="text" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="created" Type="timestamp" Null="NO" Key="" Default="0000-00-00 00:00:00" Extra="" Comment="" />
+		<field Field="last_updated" Type="timestamp" Null="NO" Key="" Default="CURRENT_TIMESTAMP" Extra="on update CURRENT_TIMESTAMP" Comment="" />
+		<key Table="deed" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="25" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="deed" Engine="InnoDB" Version="10" Row_format="Compact" Rows="25" Avg_row_length="655" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="26" Create_time="2016-03-26 18:53:04" Collation="utf8_swedish_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="deed">
+	<row>
+		<field name="id">1</field>
+		<field name="subject">deed 01</field>
+		<field name="description">I deed 01 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">2</field>
+		<field name="subject">deed 02</field>
+		<field name="description">I deed 02 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">3</field>
+		<field name="subject">deed 03</field>
+		<field name="description">I deed 03 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">4</field>
+		<field name="subject">deed 04</field>
+		<field name="description">I deed 04 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">5</field>
+		<field name="subject">deed 05</field>
+		<field name="description">I deed 05 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">6</field>
+		<field name="subject">deed 06</field>
+		<field name="description">I deed 06 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">7</field>
+		<field name="subject">deed 07</field>
+		<field name="description">I deed 07 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">8</field>
+		<field name="subject">deed 08</field>
+		<field name="description">I deed 08 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">9</field>
+		<field name="subject">deed 09</field>
+		<field name="description">I deed 09 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">10</field>
+		<field name="subject">deed 10</field>
+		<field name="description">I deed 10 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">11</field>
+		<field name="subject">deed 11</field>
+		<field name="description">I deed 11 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">12</field>
+		<field name="subject">deed 12</field>
+		<field name="description">I deed 12 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">13</field>
+		<field name="subject">deed 13</field>
+		<field name="description">I deed 13 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">14</field>
+		<field name="subject">deed 14</field>
+		<field name="description">I deed 14 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">15</field>
+		<field name="subject">deed 15</field>
+		<field name="description">I deed 15 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">16</field>
+		<field name="subject">deed 16</field>
+		<field name="description">I deed 16 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">17</field>
+		<field name="subject">deed 17</field>
+		<field name="description">I deed 17 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">18</field>
+		<field name="subject">deed 18</field>
+		<field name="description">I deed 18 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">19</field>
+		<field name="subject">deed 19</field>
+		<field name="description">I deed 19 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">20</field>
+		<field name="subject">deed 20</field>
+		<field name="description">I deed 20 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">21</field>
+		<field name="subject">deed 21</field>
+		<field name="description">I deed 21 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">22</field>
+		<field name="subject">deed 22</field>
+		<field name="description">I deed 22 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">23</field>
+		<field name="subject">deed 23</field>
+		<field name="description">I deed 23 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">24</field>
+		<field name="subject">deed 24</field>
+		<field name="description">I deed 24 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	<row>
+		<field name="id">25</field>
+		<field name="subject">deed 25</field>
+		<field name="description">I deed 25 elephant</field>
+		<field name="created">2016-03-26 19:47:04</field>
+		<field name="last_updated">2016-03-26 19:47:04</field>
+	</row>
+	</table_data>
+	<triggers name="deed">
+		<trigger Trigger="deed_trigger" sql_mode="" character_set_client="utf8" collation_connection="utf8_general_ci" Database_Collation="latin1_swedish_ci">
+<![CDATA[
+CREATE DEFINER=`root`@`localhost` TRIGGER `deed_trigger` BEFORE INSERT ON `deed` FOR EACH ROW SET NEW.created = CURRENT_TIMESTAMP
+]]>
+		</trigger>
+	</triggers>
+</database>
+</mysqldump>
+

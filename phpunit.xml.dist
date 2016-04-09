@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="vendor/autoload.php" colors="true">
+    <testsuites>
+        <testsuite name="BadDeeds Test Suite">
+            <directory>tests/BadDeeds/</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src/BadDeeds/</directory>
+        </whitelist>
+    </filter>
+
+    <php>
+        <ini name="date.timezone" value="UTC"/>
+        <const name="DBUSER" value="deed_test"/>
+        <const name="DBPASS" value="deed_test"/>
+        <const name="DBHOST" value="localhost"/>
+        <const name="DBNAME" value="baddeed_test"/>
+    </php>
+</phpunit>
