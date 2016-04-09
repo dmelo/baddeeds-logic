@@ -16,6 +16,7 @@ before_install:
     - mysql -e "create user deed_test;" -uroot
     - mysql -e "grant all privileges on baddeed_test.* to deed_test@'localhost' identified by 'deed_test'" -uroot
     - mysql -e "flush privileges;" -uroot
+    - mysql -u root baddeed_test < setup/db/create.sql 
 
 install:
     - composer install
