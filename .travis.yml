@@ -6,6 +6,8 @@ php:
 
 addon:
     mariadb: '10.0'
+    code_climate:
+        repo_token: 5a4ff4f02239eed7f0c6c32b9cc6774ef7e46168d682f53e51a98f82574f254e
 
 before_install:
     - mysql -e "create database IF NOT EXISTS baddeed_test;" -uroot
