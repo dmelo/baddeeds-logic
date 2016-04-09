@@ -13,7 +13,7 @@ addon:
 
 before_install:
     - mysql -e "create database IF NOT EXISTS baddeed_test;" -uroot
-    - mysql -e "create user IF NOT EXISTS deed_test;" -uroot
+    - mysql -e "create user deed_test;" -uroot
     - mysql -e "grant all privileges on baddeed_test.* to deed_test@'localhost' identified by 'deed_test'" -uroot
     - mysql -e "flush privileges;" -uroot
 
