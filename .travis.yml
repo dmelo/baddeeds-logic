@@ -1,12 +1,21 @@
 language: php
 
 php:
-  - '5.4'
-  - '5.5'
-  - '5.6'
-  - '7.0'
-  - hhvm
-  - nightly
+    - '5.4'
+    - '5.5'
+    - '5.6'
+    - '7.0'
+    - hhvm
+    - nightly
+
+addon:
+    mariadb: '10.0'
+
+before_install:
+    - mysql -e "create database IF NOT EXISTS baddeed_test;" -uroot
+    - mysql -e "create user IF NOT EXISTS deed_test;" -uroot
+    - mysql -e "grant all privileges on baddeed_test.* to deed_test@'localhost' identified by 'deed_test'" -uroot
+    - mysql -e "flush privileges;" -uroot
 
 install:
     - composer install
